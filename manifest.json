@@ -2,28 +2,32 @@
 
     "manifest_version": 2,
     "name": "Retrofy",
-    "version": "1.00",
+    "version": "1.0",
   
     "description": "",
   
     "icons": {
-      "48": ""
     },
 
     "permissions": [
+      "tabs"
     ],
 
     "content_scripts": [
       {
-        "matches": ["*://*."],
-        "js": ["assets/js/retrofy.js" , "assets/lib/jquery-3.3.1.min"]
+        "exclude_matches": ["*://developer.mozilla.org/*"],
+        "matches": ["*://*/*"],
+        "css": [
+          "assets/css/bootstrap.min.css", 
+          "assets/css/extra.css"
+        ],
+        "js": [ 
+          "feoisf"
+        ]
       }
     ],
 
-    "browser_action": {
-      "default_icon": "",
-      "default_title": "Retrofy",
-      "default_popup": "",
-      "browser_style": true
-    }
+    "web_accessible_resources": [
+      "assets/css/bootstrap.min.css"
+    ]
   }
