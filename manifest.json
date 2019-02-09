@@ -1,7 +1,7 @@
 {
 
     "manifest_version": 2,
-    "name": "Systems Hacks 2019",
+    "name": "Retrofy",
     "version": "1.00",
   
     "description": "",
@@ -15,15 +15,15 @@
 
     "content_scripts": [
       {
-        "matches": [],
-        "js": ["assets/lib/jquery-3.3.1.min"]
+        "matches": ["*://*."],
+        "js": ["assets/js/retrofy.js" , "assets/lib/jquery-3.3.1.min"]
       }
     ],
 
     "browser_action": {
-      "default_icon": "icons/reddit_searcher.png",
-      "default_title": "Reddit Searcher",
-      "default_popup": "popup/reddit_searcher.html",
+      "default_icon": "",
+      "default_title": "Retrofy",
+      "default_popup": "",
       "browser_style": true
     }
   }
