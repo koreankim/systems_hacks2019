@@ -1,0 +1,29 @@
+{
+
+    "manifest_version": 2,
+    "name": "Systems Hacks 2019",
+    "version": "1.00",
+  
+    "description": "",
+  
+    "icons": {
+      "48": ""
+    },
+
+    "permissions": [
+    ],
+
+    "content_scripts": [
+      {
+        "matches": [],
+        "js": ["assets/lib/jquery-3.3.1.min"]
+      }
+    ],
+
+    "browser_action": {
+      "default_icon": "icons/reddit_searcher.png",
+      "default_title": "Reddit Searcher",
+      "default_popup": "popup/reddit_searcher.html",
+      "browser_style": true
+    }
+  }
