@@ -1,6 +1,22 @@
 div {
-   text-align: center;
-   margin: 0 auto;
-   display: inline-block;
-   font-family: "Times New Roman", Times, serif;
+    margin: 0 auto;
+    display: inline-block;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
 }

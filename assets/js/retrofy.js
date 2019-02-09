@@ -7,6 +7,15 @@ const FILES = [
 let divs = document.querySelectorAll("div");
 
 let index = Math.floor((Math.random() * FILES.length));
-let file = FILES[index + 1];
+let file = FILES[index];
 
-document.body.style.backgroundImage = "url('"+ file + "')"; 
+document.body.style.backgroundImage = "url('" + file + "')";
+
+/* Marquee */
+let tags = document.querySelectorAll('h3');
+
+for (let i = 0; i < tags.length; i++) {
+    tags[i].outerHTML = tags[i].outerHTML.replace(/h3/g, 'marquee');
+}
+
+/* End of Marquee */
