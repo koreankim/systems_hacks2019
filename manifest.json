@@ -22,12 +22,13 @@
           "assets/css/extra.css"
         ],
         "js": [ 
-          "feoisf"
+          "assets/js/retrofy.js"
         ]
       }
     ],
 
     "web_accessible_resources": [
-      "assets/css/bootstrap.min.css"
+      "assets/css/*.css",
+      "assets/images/*.png"
     ]
   }
