@@ -1,8 +1,21 @@
 div {
     /* margin: 0 auto; */
-    display: inline-block;
+    /* display: inline-block; */
     font-family: "Times New Roman", Times, serif;
 }
+
+
+html {
+    text-align: center;
+}
+
+body {
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+}
+
+
 
 h1 {
     animation: blink-animation 1s steps(5, start) infinite;
