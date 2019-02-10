@@ -1,7 +1,10 @@
 const FILES = [
     "",
     'https://i.imgur.com/Z9T53LC.png',
-    'https://i.imgur.com/QDAWkLj.png'
+    'https://i.imgur.com/QDAWkLj.png',
+    'https://i.imgur.com/StGJeI7.png',
+    'https://i.imgur.com/kh5mIz3.png',
+    'https://i.imgur.com/oevyWoB.png',
 ];
 
 let divs = document.querySelectorAll("div");
