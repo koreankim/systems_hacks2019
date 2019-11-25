@@ -1,7 +1,7 @@
 # Systems Hacks 2019 - Retrofy
 
 ## Description
-A Firefox extension that makes everything look like it was thrown back into the 90s. This was a project done for Systems Hacks 2019, where the theme was to create something related to the time period.
+A Firefox extension that makes a web page look like it was thrown back into the 90s. This was a project done for Systems Hacks 2019, where the theme was to create a project related to the time period.
 
 
 Our extension can also be found in the [Firefox addon page](https://addons.mozilla.org/en-US/firefox/addon/retrofy/)
@@ -11,15 +11,15 @@ To use this extension, compress the files into a .zip file and go to "about:debu
 
 ## Tools
 ### Libraries
-1. [Geo-bootstrap](https://github.com/divshot/geo-bootstrap)
+  - [Geo-bootstrap](https://github.com/divshot/geo-bootstrap)
 
 ### Software
-1. Visual Studio Code
-2. Gitbash (Windows 10)
-3. Source Tree
+  - Visual Studio Code
+  - Gitbash (Windows 10)
+  - Source Tree
 
 ### Browser
-1. Firefox
+  - Firefox
 
 ## Authors
 - Jun-Ho Kim
